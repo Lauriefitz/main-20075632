@@ -1,0 +1,24 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>Link</th>
+      <th>ID</th>
+      <th>Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each category.links}}
+      <tr>
+        <td>
+          <a href="{{url}}" target="_blank">{{title}}</a>
+        </td>
+        <td>
+          {{id}}
+        </td>
+        <td>
+          <a href="/category/{{../category.id}}/deleteLink/{{id}}" ><i class="trash outline icon"></i></a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

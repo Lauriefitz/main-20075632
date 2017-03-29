@@ -1,0 +1,25 @@
+{{#each category}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> 
+      ID: {{id}}<br>
+      <h2 class="ui small header">
+      No. of Links for {{title}}
+    </h2>
+     <div class="ui small blue message"> 
+    <p>
+      {{links.length}}
+    </p>
+    </div>
+    </p>
+    <a href="/category/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deletecategory/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}
+
