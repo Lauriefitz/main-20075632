@@ -1,4 +1,4 @@
-<form class="ui stacked segment form" action="/category/{{category.id}}/addlink" method="POST">
+<form class="ui stacked segment form" action="/category/{{category.id}}/addlink" action="/dashboard/uploadpicture" method="POST" enctype="multipart/form-data">
   <div class="three fields">
     <div class="field">
       <label>URL</label>
@@ -12,6 +12,10 @@
       <label>ID</label>
       <input placeholder="ID" type="text" name="id">
     </div>
+         <div class="field">
+            <label>Picture</label>
+            <input type="file" name="picture">  </input>
+        </div>
   </div>
   <button class="ui blue submit button">Add Link</button>
 </form>

@@ -19,9 +19,93 @@
       "links": []
     },
     {
-      "id": "1",
+      "id": "3",
       "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
-      "title": "hey",
+      "title": "test",
+      "links": [
+        {
+          "id": "2",
+          "title": "test",
+          "url": "https://main-20075632.glitch.me/category/3",
+          "album": {
+            "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+            "photos": [
+              {
+                "img": "http://res.cloudinary.com/laurfitz/image/upload/v1490808985/ioryqvnteb3aioiaxahj.png",
+                "title": "Bart"
+              }
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "title": "test2",
+          "url": "https://main-20075632.glitch.me/category/3",
+          "album": {
+            "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+            "photos": [
+              {
+                "img": "http://res.cloudinary.com/laurfitz/image/upload/v1490808985/ioryqvnteb3aioiaxahj.png",
+                "title": "Bart"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+      "title": "test2",
+      "links": [
+        {
+          "id": "6",
+          "title": "test3",
+          "url": "https://main-20075632.glitch.me/category/3",
+          "album": {
+            "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+            "photos": [
+              {
+                "img": "http://res.cloudinary.com/laurfitz/image/upload/v1490808985/ioryqvnteb3aioiaxahj.png",
+                "title": "Bart"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "title": "test4",
+          "url": "https://main-20075632.glitch.me/category/3",
+          "album": {
+            "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+            "photos": [
+              {
+                "img": "http://res.cloudinary.com/laurfitz/image/upload/v1490808985/ioryqvnteb3aioiaxahj.png",
+                "title": "Bart"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "title": "test5",
+          "url": "https://main-20075632.glitch.me/category/3",
+          "album": {
+            "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+            "photos": [
+              {
+                "img": "http://res.cloudinary.com/laurfitz/image/upload/v1490808985/ioryqvnteb3aioiaxahj.png",
+                "title": "Bart"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "userid": "11197825-1f80-4955-a58c-9b7ecd6d17c6",
+      "title": "test3",
       "links": []
     }
   ]

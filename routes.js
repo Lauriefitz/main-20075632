@@ -22,6 +22,7 @@ router.post('/addmessage', about.addMessage);
 
 router.get('/category/:id', category.index);
 router.get('/category/:id/deletelink/:linkid', category.deleteLink);
+router.post('/category/uploadpicture', category.uploadPicture);
 router.get('/dashboard/deletecategory/:id', dashboard.deleteCategory);
 router.post('/category/:id/addlink', category.addLink);
 router.post('/dashboard/addcategory', dashboard.addCategory);

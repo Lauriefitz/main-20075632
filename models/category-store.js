@@ -7,6 +7,10 @@ const categoryStore = {
 
   store: new JsonStore('./models/category-store.json', { categoryCollection: [] }),
   collection: 'categoryCollection',
+  
+  getCategoryCollection() {
+    return this.store.findAll(this.collection);
+  },
 
   getAllCategories() {
     return this.store.findAll(this.collection);
@@ -44,6 +48,23 @@ const categoryStore = {
     return this.store.findBy(this.collection, { userid: userid });
   },
   
+  getTotalNumberOfLinks() {
+    const collection = this.getCategoryCollection();
+    let total = 0;
+    for (let i=0; i<collection.length; i++) {
+      total = total + collection[i].links.length;
+    }
+    return total;
+  },
+  
+  getAllLinks() {
+    const collection = this.getAllCategories();
+    let total = 0;
+    for (let i=0; i<collection.length; i++) {
+      total = total + collection[i].links.length;
+    }
+    return total;
+  },
 };
 
 module.exports = categoryStore;

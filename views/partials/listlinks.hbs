@@ -3,6 +3,7 @@
     <tr>
       <th>Link</th>
       <th>ID</th>
+      <th>Picture</th>
       <th>Delete</th>
     </tr>
   </thead>
@@ -15,6 +16,11 @@
         <td>
           {{id}}
         </td>
+        <td>
+          {{#each album.photos}}
+            <img src="{{img}}">
+          {{/each}}
+        </td>     
         <td>
           <a href="/category/{{../category.id}}/deleteLink/{{id}}" ><i class="trash outline icon"></i></a>
         </td>
