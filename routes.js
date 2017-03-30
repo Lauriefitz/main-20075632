@@ -14,6 +14,8 @@ router.get('/dashboard/deletepicture', dashboard.deletePicture);
 router.post('/dashboard/uploadpicture', dashboard.uploadPicture);
 
 router.get('/dashboard', dashboard.index);
+router.get('/start', start.index);
+
 
 router.get('/about', about.index);
 router.post('/addmessage', about.addMessage);
